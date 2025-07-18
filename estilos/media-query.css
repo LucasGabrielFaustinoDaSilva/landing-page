@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  .sobre-mim {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .sobre-mim div {
+    max-width: 600px;
+  }
+
+  .cards-certificados,
+  .cards-projetos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cert-card,
+  .projeto-card {
+    width: 250px;
+    margin: 10px;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  header p {
+    font-size: 1.3em;
+  }
+
+  section h2 {
+    font-size: 2em;
+  }
+  
+}
+
+
+
+
