@@ -18,6 +18,9 @@
     grid-template-columns: repeat(3, 0.1fr);
     gap: 15px;
     margin-top: 20px;
+    margin-rigth: auto;
+    margin-left: auto;
+    justify-content: center
   }
 
   main h2 {
