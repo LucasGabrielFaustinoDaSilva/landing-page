@@ -7,6 +7,7 @@
   font-family: Arial, sans-serif;
 }
 
+
 body {
   background-color: #1e1f2b;
   color: #ffffff;
@@ -21,6 +22,14 @@ a {
 
 a:hover {
   color: #ffffff;
+}
+
+i > img {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  left: -8px;
+
 }
 
 header {
