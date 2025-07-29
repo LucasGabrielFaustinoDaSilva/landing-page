@@ -24,11 +24,10 @@ a:hover {
   color: #ffffff;
 }
 
-i > img {
-  display: inline-block;
-  position: relative;
-  top: 6px;
-  left: -8px;
+i  img, picture {
+ position: relative;
+ top: 15px;
+
 
 }
 
@@ -104,8 +103,8 @@ footer a {
 .cards-certificados {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 10px;
+  margin: 5px;
 }
 
 .cert-card {
@@ -113,7 +112,7 @@ footer a {
   background-color: #2c2e3e;
   color: #ffffff;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 10px 10px ;
   border-radius: 8px;
   transition: background 0.3s ease, transform 0.2s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -121,7 +120,7 @@ footer a {
 
 .cert-card:hover {
   background-color: #4a90e2;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   color: #fff;
 }
 

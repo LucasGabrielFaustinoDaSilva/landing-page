@@ -57,4 +57,26 @@
   section h2 {
     font-size: 2em;
   }
+  picture, img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    top: 70%;
+    left: 70%;
+    transform: translate(-45%, -48%);
+    border-bottom: 20px;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    border: 20px;
+    padding: 10px;
+  }
+
+  footer  p {
+    display: block;
+    text-align: center;
+  }
+ 
 }
