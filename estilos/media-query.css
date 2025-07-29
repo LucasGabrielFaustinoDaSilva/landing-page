@@ -57,21 +57,17 @@
   section h2 {
     font-size: 2em;
   }
-  picture, img {
+  picture > img {
     display: flex;
     width: 100px;
     height: 100px;
-    top: 70%;
-    left: 70%;
-    transform: translate(-45%, -48%);
-    border-bottom: 20px;
+    transform: translate(60%, -20%);
   }
 
   a {
     display: block;
     text-align: center;
-    border: 20px;
-    padding: 10px;
+    
   }
 
   footer  p {
